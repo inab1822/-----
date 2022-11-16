@@ -117,6 +117,7 @@ def coffee_maker(coffee_name,ur_coffee_m):
     re.resources['milk'] -= user_m
     re.resources['coffee'] -= user_c
     Coffee.profit += ur_coffee_m
+    coffee_prompt()
   
 coffee_prompt()
 
