@@ -85,15 +85,16 @@ def enough(coffee_name):
       
 
 def put_ur_money(coffee_name):
+    ur_coffee_m = Menu[coffee_name]['cost']
+    print(f'{ur_coffee_m:,} 입니다. 돈을 넣어주세요')
+    # man = 
+    # ochun = 
+    # chun = 
+    # obec = 
+    # bec = 
+    # oship = 
+    # ship = 
     
-    print('얼마얼마입니다. 돈을 넣어주세요')
-    man = 
-    ochun = 
-    chun = 
-    obec = 
-    bec = 
-    oship = 
-    ship = 
     
   
 coffee_prompt()
